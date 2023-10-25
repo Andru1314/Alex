@@ -1,0 +1,775 @@
+/*телефон*/
+body{
+  margin: 0px;
+  background-color: aqua;
+  font-family: monospace;
+}
+p{
+  margin: 0px;
+}
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #292929;
+  position: fixed;
+  z-index: 20;
+}
+.main{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  background-color: white;
+  background-image: url(https://oir.mobi/uploads/posts/2021-03/1616579188_17-p-avtoservis-fon-19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -100px;
+}
+.list1{
+  font-size: 35px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+.list1 li{
+  padding: 5px;
+}
+.list1 li a{
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+h1{
+  margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 70px;
+  text-shadow: 2px 2px 10px  aqua;
+}
+hr{
+  margin: 0px;
+}
+.text-main{
+  text-align: center;
+  font-size: 20px;
+  color: cornsilk;
+}
+i{
+  text-shadow: 2px 2px 10px  red;
+  font-size: 25px;
+}
+#fake{
+  margin: 0px;
+  position: absolute;
+  top: 65%;
+  color: beige;
+}
+
+/*sel2--------------------------------------------------------------------*/
+.sel2{
+  width: 100%;
+  height: 510px;
+  position: absolute;
+  top: 700px;
+  background-color: rgb(15, 15, 24);
+}
+.aboutUs{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  color: blue;
+  text-shadow: 2px 2px 5px gray;
+}
+.text2-1{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  color: rgb(0, 197, 247);
+}
+.text2-2{
+  color: white;
+  font-size: 18px;
+}
+.list2{
+  color: ivory;
+  font-size: 17px;
+}
+.list2 li{
+  padding-top: 5px;
+}
+.list2-1{
+  color: rgb(255, 234, 115);
+}
+.img1{
+  width: 0px;
+}
+.img2{
+  width: 0px;
+}
+#fake2{
+  margin: 0px;
+  position: absolute;
+  top: 61%;
+  color: rgb(0, 68, 255);
+}
+
+/*sel3--------------------------------------------------------------------*/
+.sel3{
+  width: 100%;
+  height: 500px;
+  background-image: url(img2.jpg);
+  position: absolute;
+  top: 1210px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -150px;
+}
+.text3-1{
+  font-size: 35px;
+  text-align: center;
+}
+.tel{
+  font-size: 25px;
+  color: red;
+  text-shadow: 1px 1px 3px black;
+  padding-left: 10px;
+}
+.number{
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  padding: 0px 20px;
+  text-shadow: 1px 1px 3px black;
+}
+.numberdiv{
+  background-color: blueviolet;
+  height: 30px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  padding: 0px 40px;
+  border: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.address{
+  font-size: 20px;
+  width: 400px;
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  color: yellow;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+
+/*footer-------------------------------------------------------------------*/
+footer{
+  width: 100%;
+  height: 53px;
+  position: absolute;
+  top: 1710px;
+  background-color: #000000;
+}
+.my-numb{
+  color: #fff;
+  margin: 0%;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 17px;
+}
+.gmail{
+  color: #fff;
+  margin: 0%;
+  font-size: 13px;
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+
+
+
+
+
+/*планшет-----------------------------------------------------------------*/
+@media (min-width:768px) {
+
+  body{
+  margin: 0px;
+  background-color: blue;
+}
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #525252;
+}
+.main{
+  width: 100%;
+  height: 570px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  
+}
+.list1{
+  font-size: 35px;
+  margin: 0px;
+  text-align: center;
+  padding: 22px 30px;
+}
+.list1 li{
+  padding: 10px;
+  display: inline-block;
+}
+.list1 li a{
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+h1{
+  margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 70px;
+  text-shadow: 2px 2px 10px  aqua;
+}
+.text-main{
+  text-align: center;
+  font-size: 25px;
+}
+i{
+  text-shadow: 1px 1px 8px  red;
+  font-size: 30px;
+}
+#fake{
+  margin: 0px;
+  position: absolute;
+  top: 83%;
+  color: beige;
+}
+
+/*sel2--------------------------------------------------------------------*/
+.sel2{
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  top: 670px;
+  background-color: rgb(15, 15, 24);
+}
+.aboutUs{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
+  color: blue;
+  text-shadow: 2px 2px 5px gray;
+}
+.text2-1{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+  color: rgb(0, 197, 247);
+}
+.listdiv{
+  padding-left: 15px;
+}
+.list2{
+  color: ivory;
+  font-size: 20px;
+  
+}
+.list2 li{
+  padding-top: 5px;
+}
+.list2-1{
+  color: rgb(255, 234, 115);
+}
+.img1{
+  width: 300px;
+  position: absolute;
+  top: 330px;
+  left: 430px;
+}
+.img2{
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  padding: 0px 20px;
+}
+#fake2{
+  margin: 0px;
+  position: absolute;
+  top: 84%;
+  color: rgb(0, 68, 255);
+}
+
+/*sel3--------------------------------------------------------------------*/
+.sel3{
+  width: 100%;
+  height: 580px;
+  background-image: url(img2.jpg);
+  position: absolute;
+  top: 1240px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0px;
+}
+.text3-1{
+  font-size: 40px;
+  text-align: center;
+  color: #3300cc;
+  padding-top: 10px;
+  text-shadow: 1px 1px 3px #33FFCC;
+}
+.tel{
+  font-size: 35px;
+  color: red;
+  text-shadow: 1px 1px 3px black;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.number{
+  text-decoration: none;
+  font-size: 35px;
+  color: #fff;
+  padding: 0px 20px;
+  text-shadow: 1px 1px 3px black;
+}
+.numberdiv{
+  background-color: blueviolet;
+  height: 40px;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  padding: 0px 40px;
+  border: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.address{
+  font-size: 40px;
+  width: 700px;
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  color: yellow;
+}
+
+
+/*footer-------------------------------------------------------------*/
+footer{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 1820px;
+  background-color: #000000;
+}
+.my-numb{
+  color: #fff;
+  margin: 0%;
+  font-size: 15px;
+  padding-left: 60px;
+  padding-top: 17px;
+}
+.gmail{
+  color: #fff;
+  margin: 0%;
+  font-size: 15px;
+  position: absolute;
+  top: 17px;
+  right: 60px;
+}
+}
+
+
+
+
+
+/*лептоп------------------------------------------------------------------*/
+@media (min-width:1024px) {
+
+  body{
+  margin: 0px;
+  background-color: rgb(21, 252, 0);
+}
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #525252;
+}
+.main{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  background-position-x: 0px;
+  position: absolute;
+  top: 70px;
+}
+.list1{
+  font-size: 35px;
+  margin: 0px;
+  text-align: center;
+  padding: 5px 30px;
+}
+.list1 li{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+}
+.list1 li a{
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+h1{
+  margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 80px;
+  text-shadow: 4px 4px 10px  aqua;
+}
+i{
+  text-shadow: 1px 1px 8px  red;
+  font-size: 37px;
+}
+.text-main{
+  text-align: center;
+  font-size: 30px;
+}
+#fake{
+  margin: 0px;
+  position: absolute;
+  top: 90%;
+  color: beige;
+}
+
+/*sel2--------------------------------------------------------------------*/
+.sel2{
+  width: 100%;
+  height: 630px;
+  position: absolute;
+  top: 670px;
+  background-color: rgb(15, 15, 24);
+}
+.aboutUs{
+  font-size: 55px;
+  text-align: center;
+  padding-top: 40px;
+  color: blue;
+  text-shadow: 2px 2px 5px gray;
+}
+.text2-1{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  color: rgb(0, 197, 247);
+}
+.listdiv{
+  padding-left: 20px;
+}
+.list2{
+  color: ivory;
+  font-size: 23px;
+  
+}
+.list2 li{
+  padding-top: 5px;
+}
+.list2-1{
+  color: rgb(255, 234, 115);
+}
+.img1{
+  width: 350px;
+  position: absolute;
+  top: 330px;
+  left: 550px;
+}
+.img2{
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  padding: 0px 20px;
+}
+#fake2{
+  margin: 0px;
+  position: absolute;
+  top: 93%;
+  color: rgb(0, 68, 255);
+}
+
+/*sel3--------------------------------------------------------------------*/
+.sel3{
+  width: 100%;
+  height: 630px;
+  background-image: url(img2.jpg);
+  position: absolute;
+  top: 1300px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0px;
+}
+.text3-1{
+  font-size: 45px;
+  text-align: center;
+  padding-top: 40px;
+  color: #3300cc;
+  text-shadow: 1px 1px 3px #33FFCC;
+}
+.tel{
+  font-size: 40px;
+  color: red;
+  text-shadow: 1px 1px 3px black;
+  padding-left: 30px;
+}
+.number{
+  text-decoration: none;
+  font-size: 45px;
+  color: #fff;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 3px black;
+}
+.numberdiv{
+  background-color: blueviolet;
+  height: 50px;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  padding: 0px 40px;
+  border: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.address{
+  font-size: 40px;
+  width: 950px;
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  color: yellow;
+}
+
+/*footer-------------------------------------------------------------------*/
+footer{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 1930px;
+  background-color: #000000;
+}
+.my-numb{
+  color: #fff;
+  margin: 0%;
+  font-size: 15px;
+  padding-left: 80px;
+  padding-top: 17px;
+}
+.gmail{
+  color: #fff;
+  margin: 0%;
+  font-size: 15px;
+  position: absolute;
+  top: 17px;
+  right: 80px;
+}
+}
+
+
+
+
+
+/*ПК*/
+@media (min-width:1440px) {
+
+  body{
+  margin: 0px;
+  background-color: blueviolet;
+}
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #525252;
+}
+.main{
+  width: 100%;
+  height: 750px;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+}
+.list1{
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  padding: 7px;
+}
+.list1 li{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+}
+.list1 li a{
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+h1{
+  margin: 0px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 90px;
+  text-shadow: 3px 4px 15px  aqua;
+}
+.text-main{
+  text-align: center;
+  font-size: 40px;
+}
+i{
+  text-shadow: 1px 1px 8px  red;
+  font-size: 47px;
+}
+#fake{
+  margin: 0px;
+  position: absolute;
+  top: 87%;
+  color: beige;
+}
+
+/*sel2--------------------------------------------------------------------*/
+.sel2{
+  width: 100%;
+  height: 750px;
+  position: absolute;
+  top: 765px;
+  background-color: rgb(15, 15, 24);
+}
+.aboutUs{
+  font-size: 55px;
+  text-align: center;
+  padding-top: 70px;
+  color: blue;
+  text-shadow: 2px 2px 5px gray;
+}
+.text2-1{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  color: rgb(0, 197, 247);
+}
+.listdiv{
+  padding-left: 40px;
+}
+.list2{
+  color: ivory;
+  font-size: 28px;
+  padding-top: 15px;
+}
+.list2 li{
+  padding-top: 5px;
+}
+.list2-1{
+  color: rgb(255, 234, 115);
+}
+.img1{
+  width: 500px;
+  position: absolute;
+  top: 315px;
+  left: 750px;
+}
+.img2{
+  width: 350px;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  padding: 0px 20px;
+}
+
+
+/*sel3--------------------------------------------------------------------*/
+.sel3{
+  width: 100%;
+  height: 700px;
+  background-image: url(img2.jpg);
+  position: absolute;
+  top: 1514px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -150px;
+}
+.text3-1{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
+  color: #3300cc;
+  text-shadow: 1px 1px 3px #33FFCC;
+}
+.tel{
+  font-size: 45px;
+  color: red;
+  text-shadow: 1px 1px 3px black;
+  padding-left: 40px;
+  padding-top: 30px;
+
+}
+.number{
+  text-decoration: none;
+  font-size: 60px;
+  color: #fff;
+  padding: 10px 30px;
+  text-shadow: 1px 1px 3px black;
+}
+.numberdiv{
+  background-color: blueviolet;
+  height: 65px;
+  position: absolute;
+  top: 230px;
+  left: 40px;
+  padding: 0px 40px;
+  border: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.address{
+  font-size: 45px;
+  width: 1000px;
+  position: absolute;
+  top: 520px;
+  left: 40px;
+  color: yellow;
+}
+
+/*footer-------------------------------------------------------------------*/
+footer{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 2214px;
+  background-color: #000000;
+}
+.my-numb{
+  color: #fff;
+  margin: 0%;
+  font-size: 20px;
+  padding-left: 80px;
+  padding-top: 17px;
+}
+.gmail{
+  color: #fff;
+  margin: 0%;
+  font-size: 20px;
+  position: absolute;
+  top: 17px;
+  right: 80px;
+}
+}
